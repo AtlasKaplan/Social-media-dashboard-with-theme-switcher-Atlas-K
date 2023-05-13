@@ -11,6 +11,7 @@ const subTitle = document.querySelector('.sub-title');
 
 
 
+
 toggle.addEventListener('click',function () {
 
     background.classList.toggle('color');
