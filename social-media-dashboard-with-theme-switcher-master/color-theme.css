@@ -11,7 +11,7 @@
     color: var(--titles-wth);
 }
 
-.nav-sub.color, .follower-name.color, .follower-content.color {
+.nav-sub.color, .follower-name.color, .follower-content.color,.sub-title.color {
     color: var(--text-wth);
 }
 
@@ -22,3 +22,4 @@
 .follower__container.color:hover {
     background-color: #d5c4eb;
 }
+

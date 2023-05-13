@@ -84,8 +84,13 @@ nav {
     hsl(146deg 68% 55%) 100%);
 
     cursor: pointer;
-}
 
+    transition: 0.26s;
+}
+.toggle-btn.color {
+    background-color: hsl(230, 22%, 74%);
+    background-image: none;
+}
 .toggle-ball{
     width: 20px;
     height: 20px;
@@ -96,6 +101,12 @@ nav {
     border-radius: 50%;
     background-color: #232C42;
     position: relative;
+
+    transition: 0.26s ease-in;
+}
+.toggle-ball.color{
+    left:31px;
+    background-color: white;
 }
 
 .grid__social{
@@ -225,7 +236,7 @@ nav {
 
 
 
-h2 {
+.sub-title {
     padding: 20px;
     color: var(--titles-drk);
     margin-inline: 25px;
