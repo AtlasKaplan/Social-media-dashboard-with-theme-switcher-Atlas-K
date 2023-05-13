@@ -1,0 +1,24 @@
+.background.color {
+    background: linear-gradient(to top,
+    
+    var(--main-bg-wth) 0%,
+    var(--main-bg-wth) 70%,
+    var(--top-bg-wth) 70%,
+    var(--top-bg-wth) 100%);
+}
+
+.nav-title.color, .follower-numbers.color, .overview-number.color{
+    color: var(--titles-wth);
+}
+
+.nav-sub.color, .follower-name.color, .follower-content.color {
+    color: var(--text-wth);
+}
+
+.follower__container.color, .overview-container.color {
+    background-color: var(--card-bg-wth);
+}
+
+.follower__container.color:hover {
+    background-color: #d5c4eb;
+}

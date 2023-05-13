@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Atlas K</title>
@@ -12,77 +15,138 @@
   
   
 </head>
-<body>
-<main>
+
+<body class="background">
+
   
-    Social Media Dashboard
-    Total Followers: 23,004
+    <nav>
+      <div class="nav-content">
+        <h1 class="nav-title" >Social Media Dashboard</h1>
+        <p class="nav-sub" >Total Followers: 23,004</p>
+      </div>
+      <div class="nav-toggle">
+        <p>Dark Mode</p>
+        <div class="toggle-btn" >
+          <div class="toggle-ball" ></div>
+        </div>
+      </div>
+    </nav>
   
-    Dark Mode
-  
-  
-  
-    @nathanf
-    1987
-    Followers
-    12 Today
-  
-    @nathanf
-    1044
-    Followers
-    99 Today
-  
-    @realnathanf
-    11k
-    Followers
-    1099 Today
-  
-    Nathan F.
-    8239
-    Subscribers
-    144 Today
-  
-  
-  
-    Overview - Today
-  
-    Page Views
-    87
-    3%
-  
-    Likes
-    52
-    2%
-  
-    Likes
-    5462
-    2257%
-  
-    Profile Views
-    52k
-    1375%
-  
-    Retweets
-    117
-    303%
-  
-    Likes
-    507
-    553%
-  
-    Likes
-    107
-    19%
-  
-    Total Views
-    1407
-    12%
+  <main>
+
+    <div class="grid__social">
+      <div class="followers">
+        <div class="follower__container">
+          <p class="follower-name"><img src="images/icon-facebook.svg" alt="">@nathanf</p>
+          <div class="content">
+            <p class="follower-numbers">1987</p>
+            <p class="follower-content" >Followers</p>
+          </div>
+          <p class="green"><img src="images/icon-up.svg" alt="arrow up"> 12 Today</p>
+        </div>
+      </div>
+      
+      
+      <div class="followers">
+        <div class="follower__container">
+          <p class="follower-name"><img src="images/icon-twitter.svg" alt="">@nathanf</p>
+          <div class="content">
+            <p class="follower-numbers">1044</p>
+            <p class="follower-content">Followers</p>
+          </div>
+          <p class="green"><img src="images/icon-up.svg" alt="arrow up"> 99 Today</p>
+        </div>
+      </div>
+      <div class="followers">
+        <div class="follower__container">
+          <p class="follower-name"><img src="images/icon-instagram.svg" alt="">@realnathanf</p>
+          <div class="content">
+            <p class="follower-numbers">11k</p>
+            <p class="follower-content">Followers</p>
+          </div>
+          <p class="green"><img src="images/icon-up.svg" alt="arrow up"> 1099 Today</p>
+        </div>
+      </div>
+      <div class="followers">
+        <div class="follower__container">
+          <p class="follower-name"><img src="images/icon-youtube.svg" alt="">Nathan F.</p>
+          <div class="content">
+            <p class="follower-numbers">8239</p>
+            <p class="follower-content">Subscribers</p>
+          </div>
+          <p class="red"><img src="images/icon-down.svg" alt="arrow up"> 144 Today</p>
+        </div>
+      </div>
+    </div>
+    
+    <h2>Overview - Today</h2>
+    
+    <div class="grid__overview">
+
+      <div class="overview-container">
+        <p class="overview-content">Page Views</p>
+        <img class="overview-logo" src="images/icon-facebook.svg" alt="">
+        <p class="overview-number">87</p>
+        <p class="green"><img src="images/icon-up.svg" alt=""> 3%</p>
+      </div>
+
+      <div class="overview-container">
+        <p class="overview-content">Likes</p>
+        <img class="overview-logo" src="images/icon-facebook.svg" alt="">
+        <p class="overview-number">52</p>
+        <p class="red"><img src="images/icon-down.svg" alt=""> 2%</p>
+      </div>
+
+      <div class="overview-container">
+        <p class="overview-content">Likes</p>
+        <img class="overview-logo" src="images/icon-instagram.svg" alt="">
+        <p class="overview-number">5462</p>
+        <p class="green"><img src="images/icon-up.svg" alt=""> 2257%</p>
+      </div>
+
+      <div class="overview-container">
+        <p class="overview-content">Profile Views</p>
+        <img class="overview-logo" src="images/icon-instagram.svg" alt="">
+        <p class="overview-number">52k</p>
+        <p class="green"><img src="images/icon-up.svg" alt=""> 1375%</p>
+      </div>
+
+      <div class="overview-container">
+        <p class="overview-content">Retweets</p>
+        <img class="overview-logo" src="images/icon-twitter.svg" alt="">
+        <p class="overview-number">117</p>
+        <p class="green"><img src="images/icon-up.svg" alt=""> 303%</p>
+      </div>
+
+      <div class="overview-container">
+        <p class="overview-content">Like</p>
+        <img class="overview-logo" src="images/icon-twitter.svg" alt="">
+        <p class="overview-number">507</p>
+        <p class="green"><img src="images/icon-up.svg" alt=""> 553%</p>
+      </div>
+
+      <div class="overview-container">
+        <p class="overview-content">Like</p>
+        <img class="overview-logo" src="images/icon-youtube.svg" alt="">
+        <p class="overview-number">87</p>
+        <p class="red"><img src="images/icon-down.svg" alt=""> 19%</p>
+      </div>
+
+      <div class="overview-container">
+        <p class="overview-content">Totsl Views</p>
+        <img class="overview-logo" src="images/icon-youtube.svg" alt="">
+        <p class="overview-number">1407</p>
+        <p class="red"><img src="images/icon-down.svg" alt=""> 12%</p>
+      </div>
+
+
+    </div>
   
 </main>
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Atlas K</a>.
     </div>
   </footer>
 </body>
