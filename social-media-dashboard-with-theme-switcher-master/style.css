@@ -320,5 +320,7 @@ footer  a{
     .nav-toggle{
         justify-content: space-between;
         width: 100%;
+        border-top: 1px solid var(--text-drk);
+        padding-top: 20px;
     }
 }
