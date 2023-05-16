@@ -32,7 +32,7 @@
     --pink-ig:hsl(329, 70%, 58%);
 }
 
-
+/* ////////////////////////////////Nav ///////////////////////////// */
 
 nav {
     display: flex;
@@ -119,11 +119,11 @@ nav {
     hsl(146deg 68% 55%) 100%);
     background-color: none;
 }
-
+/* ////////////////////////////////Social///////////////////////////// */
 .grid__social{
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 4fr));
     grid-template-rows: 1fr;
     gap: 25px 15px;
     place-items: center;
@@ -133,8 +133,8 @@ nav {
 }
 .follower__container{
     background-color: var(--card-bg-drk);
-    width: 300px;
-    height: 250px;
+    width: 18.75rem;
+    height: 15.625rem;
     border-radius: 5px;
 
     display: flex;
@@ -222,11 +222,6 @@ nav {
 
 
 
-
-
-
-
-
 .green{
     color: var(--green);
     font-size: .90rem;
@@ -248,7 +243,7 @@ nav {
 
 
 
-
+/* ////////////////////////////////Overview///////////////////////////// */
 
 .sub-title {
     padding: 20px;
@@ -260,7 +255,7 @@ nav {
 .grid__overview{
     display: grid;
     grid-auto-columns: 1fr;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 4fr));
     grid-template-rows: 1fr 1fr;
     gap: 30px;
     justify-items: center;
@@ -271,8 +266,8 @@ nav {
 
 .overview-container {
     background-color: var(--card-bg-drk);
-    width: 300px;
-    height: 135px;
+    width: 18.75rem;
+    height: 8.4375rem;
     border-radius: 5px;
 
 
@@ -317,7 +312,7 @@ nav {
     transition: 0.3s ease-in;
 }
 
-
+/* ////////////////////////////////Footer///////////////////////////// */
 
 footer {
     color: var(--blue-fb);
@@ -328,7 +323,10 @@ footer  a{
 }
 
 
-@media (max-width:679px) {
+
+
+
+@media (max-width: 42.4375rem) {
     .overview-container {
         width: 100%;
         max-width: 85vw;
@@ -340,13 +338,13 @@ footer  a{
     }
 }
 
-@media (max-width:664px) {
+@media (max-width: 41.5rem) {
     .follower__container {
         width: 83vw;
     }
 }
 
-@media (max-width:586px) {
+@media (max-width: 36.625rem) {
     .nav-toggle{
         justify-content: space-between;
         width: 100%;
