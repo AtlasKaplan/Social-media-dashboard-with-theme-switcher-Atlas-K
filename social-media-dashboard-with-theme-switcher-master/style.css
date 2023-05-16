@@ -54,15 +54,17 @@ nav {
     var(--main-bg-drk) 70%,
     var(--top-bg-drk) 70%,
     var(--top-bg-drk) 100%);
+    transition: 5s;
 }
 
 .nav-title {
     color: var(--titles-drk);
+    transition: 0.3s ease-in;
 }
 .nav-sub {
     color: var(--text-drk);
     font-weight: 700;
-    
+    transition: 0.3s ease-in;
 }
 .nav-toggle{
     display: flex;
@@ -72,6 +74,7 @@ nav {
 .nav-toggle p {
     color: var(--text-drk);
     font-weight: 700;
+    transition: 0.3s ease-in;
 }
 
 .toggle-btn {
@@ -141,6 +144,7 @@ nav {
     
     
     cursor: pointer;
+    transition: 0.3s ease-in;
 }
 .follower__container:hover {
     background-color: var(--hover-card-drk);
@@ -199,11 +203,13 @@ nav {
     display: flex;
     justify-content: center;
     gap: 10px;
+    transition: 0.3s ease-in;
 }
 .follower-numbers{
     font-size: 4rem;
     color: var(--titles-drk);
     font-weight: 700;
+    transition: 0.3s ease-in;
 }
 .follower-content{
     color: var(--text-drk);
@@ -248,6 +254,7 @@ nav {
     padding: 20px;
     color: var(--titles-drk);
     margin-inline: 25px;
+    transition: 0.3s ease-in;
 }
 
 .grid__overview{
@@ -282,6 +289,8 @@ nav {
     padding-top: 10px;
 
     cursor: pointer;
+
+    transition: 0.3s ease-in;
 }
 .overview-container:hover {
     background-color: var(--hover-card-drk);
@@ -296,6 +305,7 @@ nav {
     font-weight: 700;
     margin: 20px 0 0 25px;
     justify-self: baseline;
+    transition: 0.3s ease-in;
 }
 .overview-number{
     color: var(--titles-drk);
@@ -304,6 +314,7 @@ nav {
     justify-self: baseline;
     align-self: flex-end;
     margin: 25px 15px;
+    transition: 0.3s ease-in;
 }
 
 
